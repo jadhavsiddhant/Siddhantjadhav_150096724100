@@ -1,0 +1,83 @@
+/* Reset some default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Base styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    color: #2c3e50;
+  }
+  
+  /* Bio Section */
+  .bio {
+    margin-bottom: 30px;
+  }
+  
+  .bio p {
+    font-size: 1.1em;
+  }
+  
+  /* Details Section */
+  .details h2 {
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  .details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .details li {
+    margin-bottom: 8px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  footer a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
